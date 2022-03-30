@@ -29,7 +29,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
  -Filbeats watch for log directories or specific log files.
  -Metricbeat helps you monitor your servers by collecting metrics from the system and services running on the server.
 ![Filebeat-Configuration](Configuration-Files/filebeat-configuration.yml)
-![Metricbeat-Configuration](
+![Metricbeat-Configuration](Configuration-Files/metricbeat-configuration.yml)
 
 
 The configuration details of each machine may be found below.
