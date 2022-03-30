@@ -28,6 +28,9 @@ Load balancing ensures that the application will be highly available, in additio
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system metrics.
  -Filbeats watch for log directories or specific log files.
  -Metricbeat helps you monitor your servers by collecting metrics from the system and services running on the server.
+![Filebeat-Configuration](Configuration-Files/filebeat-configuration.yml)
+![Metricbeat-Configuration](
+
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
