@@ -26,8 +26,8 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network.  Load balancers help ensure environment availabiity through distribution of incoming data to web servers.  Jump boxes allow for more easy administration of multiple systems and provide an additional layer between the outside and internal assets.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system metrics.
-  -Filbeats watch for log directories or specific log files.
-  -Metricbeat helps you monitor your servers by collecting metrics from the system and services running on the server.
+ -Filbeats watch for log directories or specific log files.
+ -Metricbeat helps you monitor your servers by collecting metrics from the system and services running on the server.
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
@@ -43,11 +43,11 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 The machines on the internal network are not exposed to the public Internet. 
 
-Only the _____ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
+Only the jumpbopx machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 - _TODO: Add whitelisted IP addresses_
 
-Machines within the network can only be accessed by _____.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
+Machines within the network can only be accessed by the Jump Box.  The Elk machine can have access from personal IP address through port 5601.
+
 
 A summary of the access policies in place can be found in the table below.
 
