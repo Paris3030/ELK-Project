@@ -60,10 +60,10 @@ A summary of the access policies in place can be found in the table below.
 | Name          | Publicly Accessible | Allowed IP Addresses |
 |---------------|---------------------|----------------------|
 | Jump Box      |       Yes           |    Personal          |
-| Web-1         |       No            |    10.0.0.0.7        |
-| Web-2         |       No            |    10.0.0.0.8        |
-| Elk-Server    |       Yes           |    Personal          |
-| Load Balancer |       Yes           |      Open            |
+| Web-1         |       No            |    10.0.0.5          |
+| Web-2         |       No            |    10.0.0.5          |
+| Elk-Server    |       No            |    Personal          |
+
 
 ### Elk Configuration
 
