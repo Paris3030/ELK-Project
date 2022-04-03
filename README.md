@@ -50,7 +50,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the jumpbopx machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- Personal IP Address
+- 52.184.100.221 (public IP address)
 
 Machines within the network can only be accessed by the Jump Box.  The Elk machine can have access from personal IP address through port 5601.
 
@@ -62,7 +62,7 @@ A summary of the access policies in place can be found in the table below.
 | Jump Box      |       Yes           |    52.184.100.221    |
 | Web-1         |       No            |    10.0.0.5          |
 | Web-2         |       No            |    10.0.0.5          |
-| Elk-Server    |       No            |    Personal          |
+| Elk-Server    |       Yes           |    52.184.100.221    |
 
 
 ### Elk Configuration
@@ -110,5 +110,4 @@ SSH into the control node and follow the steps below:
 - How do I specify which machine to install the ELK server on versus which to install Filebeat on?  You will specify which machine  to install by updating the host files with web/elk servers IP addresses and selecting which group to run on in ansible.
 - Which URL do you navigate to in order to check that the ELK server is running?  http://(elk-server public IP):5601/app/kibana
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
-The specific commands to download the playbook and update the files
+
