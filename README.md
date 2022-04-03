@@ -4,7 +4,8 @@ Unit 13 - Elk Project
 
 The files in this repository were used to configure the network depicted below.
 
-![Network Diagram](https://user-images.githubusercontent.com/94578361/161435714-cf1d0a4f-d508-438f-bd10-194711aca7e2.PNG)
+
+![ELK Network Diagram](https://user-images.githubusercontent.com/94578361/161435928-3902bf12-8c4f-444b-8c64-db8701279f51.PNG)
 
 
 
