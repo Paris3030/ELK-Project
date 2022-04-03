@@ -4,7 +4,8 @@ Unit 13 - Elk Project
 
 The files in this repository were used to configure the network depicted below.
 
-![image](https://user-images.githubusercontent.com/94578361/161358114-7b9c9137-f970-477f-ab61-7de9d7c0295d.png)
+![Network Diagram](https://user-images.githubusercontent.com/94578361/161435714-cf1d0a4f-d508-438f-bd10-194711aca7e2.PNG)
+
 
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YML file may be used to install only certain pieces of it, such as Filebeat.
